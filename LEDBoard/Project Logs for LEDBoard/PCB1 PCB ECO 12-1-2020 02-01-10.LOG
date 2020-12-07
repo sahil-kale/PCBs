@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=GND Pin=BTN-4
+Change Component Designator: OldDesignator=BTN NewDesignator=Button
+Change Component Designator: OldDesignator=Vcc NewDesignator=VCC in
+Added Pin To Net: NetName=GND Pin=Button-3
+Added Room: Name=Sheet1

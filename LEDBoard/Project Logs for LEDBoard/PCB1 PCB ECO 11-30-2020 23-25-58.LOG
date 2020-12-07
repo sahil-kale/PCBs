@@ -1,0 +1,117 @@
+Added Component: Designator=LED4(KING-WP154A4SUREQBFZGC_V)
+Add component (AddParameter): Name = "3D Model"; Value = "WP154A4SUREQBFZGW.sldprt
+
+WP154A4SUREQBFZGW.pro
+
+WP154A4SUREQBFZGW.igs
+
+WP154A4SUREQBFZGW.stp"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category"; Value = "Optoelectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Color"; Value = "Red,Green,Blue(RGB)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current - Test"; Value = "20mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet URL"; Value = "https://www.kingbrightusa.com/images/catalog/spec/WP154A4SUREQBFZGC.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Rev. 5A, 08/2014"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Family"; Value = "LEDIndication-Discrete"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "8.60mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lens Style/Size"; Value = "RoundwithDomedTop,5mm,T-13/4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lens Type"; Value = "Clear"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Kingbright"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.kingbright.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Millicandela Rating"; Value = "1300mcdRed,1700mcdGreen,900mcdBlue"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "ThroughHole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "ThroughHole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Online Catalog"; Value = "5mm,T-13/4(RGB)RoundwithDomedTopLEDLamp"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Other Names"; Value = "754-1615
+WP154A4SUREQBFZGC-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package / Case"; Value = "Radial-4Leads"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Description"; Value = "4-Pin Through Hole LED, Dia 5.9 mm, Pitch 1.27 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "WP154A4SUREQBFZGC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Standard Package"; Value = "500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Viewing Angle"; Value = "50°"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Forward (Vf) (Typ)"; Value = "1.9VRed,3.3VGreen,3.3VBlue"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Wavelength - Dominant"; Value = "630nm,525nm,465nm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Wavelength - Peak"; Value = "645nm,515nm,460nm"; VariantName = "[No Variations]"
+Added Component: Designator=LED5(KING-WP154A4SUREQBFZGC_V)
+Add component (AddParameter): Name = "3D Model"; Value = "WP154A4SUREQBFZGW.sldprt
+
+WP154A4SUREQBFZGW.pro
+
+WP154A4SUREQBFZGW.igs
+
+WP154A4SUREQBFZGW.stp"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category"; Value = "Optoelectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Color"; Value = "Red,Green,Blue(RGB)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current - Test"; Value = "20mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet URL"; Value = "https://www.kingbrightusa.com/images/catalog/spec/WP154A4SUREQBFZGC.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Rev. 5A, 08/2014"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Family"; Value = "LEDIndication-Discrete"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "8.60mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lens Style/Size"; Value = "RoundwithDomedTop,5mm,T-13/4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lens Type"; Value = "Clear"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Kingbright"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.kingbright.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Millicandela Rating"; Value = "1300mcdRed,1700mcdGreen,900mcdBlue"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "ThroughHole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "ThroughHole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Online Catalog"; Value = "5mm,T-13/4(RGB)RoundwithDomedTopLEDLamp"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Other Names"; Value = "754-1615
+WP154A4SUREQBFZGC-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package / Case"; Value = "Radial-4Leads"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Description"; Value = "4-Pin Through Hole LED, Dia 5.9 mm, Pitch 1.27 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "WP154A4SUREQBFZGC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Standard Package"; Value = "500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Viewing Angle"; Value = "50°"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Forward (Vf) (Typ)"; Value = "1.9VRed,3.3VGreen,3.3VBlue"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Wavelength - Dominant"; Value = "630nm,525nm,465nm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Wavelength - Peak"; Value = "645nm,515nm,460nm"; VariantName = "[No Variations]"
+Added Component: Designator=LED6(KING-WP154A4SUREQBFZGC_V)
+Add component (AddParameter): Name = "3D Model"; Value = "WP154A4SUREQBFZGW.sldprt
+
+WP154A4SUREQBFZGW.pro
+
+WP154A4SUREQBFZGW.igs
+
+WP154A4SUREQBFZGW.stp"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category"; Value = "Optoelectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Color"; Value = "Red,Green,Blue(RGB)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current - Test"; Value = "20mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet URL"; Value = "https://www.kingbrightusa.com/images/catalog/spec/WP154A4SUREQBFZGC.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Rev. 5A, 08/2014"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Family"; Value = "LEDIndication-Discrete"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "8.60mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lens Style/Size"; Value = "RoundwithDomedTop,5mm,T-13/4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lens Type"; Value = "Clear"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Kingbright"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.kingbright.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Millicandela Rating"; Value = "1300mcdRed,1700mcdGreen,900mcdBlue"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "ThroughHole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "ThroughHole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Online Catalog"; Value = "5mm,T-13/4(RGB)RoundwithDomedTopLEDLamp"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Other Names"; Value = "754-1615
+WP154A4SUREQBFZGC-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package / Case"; Value = "Radial-4Leads"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Description"; Value = "4-Pin Through Hole LED, Dia 5.9 mm, Pitch 1.27 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "WP154A4SUREQBFZGC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Standard Package"; Value = "500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Viewing Angle"; Value = "50°"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Forward (Vf) (Typ)"; Value = "1.9VRed,3.3VGreen,3.3VBlue"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Wavelength - Dominant"; Value = "630nm,525nm,465nm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Wavelength - Peak"; Value = "645nm,515nm,460nm"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetLED1_1 Pin=LED4-1
+Added Pin To Net: NetName=GND Pin=LED4-2
+Added Pin To Net: NetName=NetLED1_3 Pin=LED4-3
+Added Pin To Net: NetName=NetLED1_4 Pin=LED4-4
+Added Pin To Net: NetName=NetLED1_1 Pin=LED5-1
+Added Pin To Net: NetName=GND Pin=LED5-2
+Added Pin To Net: NetName=NetLED1_3 Pin=LED5-3
+Added Pin To Net: NetName=NetLED1_4 Pin=LED5-4
+Added Pin To Net: NetName=NetLED1_1 Pin=LED6-1
+Added Pin To Net: NetName=GND Pin=LED6-2
+Added Pin To Net: NetName=NetLED1_3 Pin=LED6-3
+Added Pin To Net: NetName=NetLED1_4 Pin=LED6-4
+Added Member To Class: ClassName=Sheet1 Member=Component LED4
+Added Member To Class: ClassName=Sheet1 Member=Component LED5
+Added Member To Class: ClassName=Sheet1 Member=Component LED6
