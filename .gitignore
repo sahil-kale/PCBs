@@ -2,3 +2,7 @@
 *.Zip
 *.SchDocPreview
 MTE_120_Files/
+*.LOG
+*.drc
+*.html
+*.OutJob
