@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [TRON25_LEDPATCH.PrjPcb]
+   Generated File[Patch65mm.TXT]
+   Generated File[Patch65mm.LDP]
+   Generated File[Patch65mm.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 23:22:50 On 2/16/2021
