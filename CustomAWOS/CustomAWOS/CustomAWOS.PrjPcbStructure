@@ -1,1 +1,3 @@
-Record=TopLevelDocument|FileName=Communication.SchDoc|SheetNumber=1
+Record=TopLevelDocument|FileName=Connectors.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=Connectors.SchDoc|FileName=Controller.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=Connectors.SchDoc|FileName=USB and Power.SchDoc|SheetNumber=1
