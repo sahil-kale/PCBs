@@ -108,7 +108,7 @@ GenerateClassCluster=0
 DocumentUniqueId=ROEHKWGH
 
 [Document5]
-DocumentPath=Connectors.SchDoc
+DocumentPath=SensorsSchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
