@@ -1,3 +1,4 @@
-Record=TopLevelDocument|FileName=Connectors.SchDoc|SheetNumber=3
-Record=NoMainPathDocument|SourceDocument=Connectors.SchDoc|FileName=Controller.SchDoc|SheetNumber=2
-Record=NoMainPathDocument|SourceDocument=Connectors.SchDoc|FileName=USB and Power.SchDoc|SheetNumber=1
+Record=TopLevelDocument|FileName=Controller.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=Controller.SchDoc|FileName=Display Alt.SchDoc|SheetNumber=4
+Record=NoMainPathDocument|SourceDocument=Controller.SchDoc|FileName=Sensors.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=Controller.SchDoc|FileName=USB and Power.SchDoc|SheetNumber=1
