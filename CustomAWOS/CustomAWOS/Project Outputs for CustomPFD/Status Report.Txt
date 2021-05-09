@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [CustomPFD.PrjPcb]
+   Generated File[Board-RoundHoles.TXT]
+   Generated File[Board-SlotHoles.TXT]
+   Generated File[Board.LDP]
+   Generated File[Board.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 17:26:38 On 5/8/2021

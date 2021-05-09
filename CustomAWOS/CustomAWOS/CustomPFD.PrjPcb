@@ -193,6 +193,86 @@ GenerateClassCluster=0
 DocumentUniqueId=UZWNCEZL
 
 [GeneratedDocument1]
+DocumentPath=Project Outputs for CustomPFD\Board-RoundHoles.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for CustomPFD\Board-SlotHoles.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for CustomPFD\Board.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Project Outputs for CustomPFD\Board.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs for CustomPFD\Board.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs for CustomPFD\Board.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs for CustomPFD\Board.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs for CustomPFD\Board.GKO
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs for CustomPFD\Board.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs for CustomPFD\Board.GM4
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs for CustomPFD\Board.GM13
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs for CustomPFD\Board.GM15
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs for CustomPFD\Board.GP1
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs for CustomPFD\Board.GP2
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for CustomPFD\Board.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs for CustomPFD\Board.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs for CustomPFD\Board.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Project Outputs for CustomPFD\Board.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Project Outputs for CustomPFD\Board.REP
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Project Outputs for CustomPFD\Board.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument21]
 DocumentPath=Project Outputs for CustomPFD\Design Rule Check - Board.html
 DItemRevisionGUID=
 
@@ -417,20 +497,20 @@ Name=Fabrication Outputs
 Description=
 TargetPrinter=Adobe PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=Board Stack Report
-OutputName1=Report Board Stack
+OutputType1=CompositeDrill
+OutputName1=Composite Drill Drawing
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType2=CompositeDrill
-OutputName2=Composite Drill Drawing
+OutputType2=Drill
+OutputName2=Drill Drawing/Guides
 OutputDocumentPath2=
 OutputVariantName2=
 OutputDefault2=0
 PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType3=Drill
-OutputName3=Drill Drawing/Guides
+OutputType3=Board Stack Report
+OutputName3=Report Board Stack
 OutputDocumentPath3=
 OutputVariantName3=
 OutputDefault3=0
@@ -441,48 +521,56 @@ OutputDocumentPath4=
 OutputVariantName4=[No Variations]
 OutputDefault4=0
 PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType5=Gerber
-OutputName5=Gerber Files
+OutputType5=Gerber X2
+OutputName5=Gerber X2 Files
 OutputDocumentPath5=
-OutputVariantName5=[No Variations]
+OutputVariantName5=
 OutputDefault5=0
-OutputType6=Gerber X2
-OutputName6=Gerber X2 Files
+OutputType6=ODB
+OutputName6=ODB++ Files
 OutputDocumentPath6=
-OutputVariantName6=
+OutputVariantName6=[No Variations]
 OutputDefault6=0
-OutputType7=IPC2581
-OutputName7=IPC-2581 Files
+OutputType7=Mask
+OutputName7=Solder/Paste Mask Prints
 OutputDocumentPath7=
 OutputVariantName7=
 OutputDefault7=0
-OutputType8=Mask
-OutputName8=Solder/Paste Mask Prints
+PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType8=NC Drill
+OutputName8=NC Drill Files
 OutputDocumentPath8=
 OutputVariantName8=
 OutputDefault8=0
-PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType9=NC Drill
-OutputName9=NC Drill Files
+Configuration8_Name1=ForceUpdateSettings
+Configuration8_Item1=False
+Configuration8_Name2=OutputConfigurationParameter1
+Configuration8_Item2=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=4|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Imperial|ZeroesMode=SuppressLeadingZeroes|DocumentPath=C:\Users\Sahil\Documents\GitHub\PCBs\CustomAWOS\CustomAWOS\Board.PcbDoc
+OutputType9=IPC2581
+OutputName9=IPC-2581 Files
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
-OutputType10=ODB
-OutputName10=ODB++ Files
+OutputType10=Plane
+OutputName10=Power-Plane Prints
 OutputDocumentPath10=
-OutputVariantName10=[No Variations]
+OutputVariantName10=
 OutputDefault10=0
-OutputType11=Plane
-OutputName11=Power-Plane Prints
+PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType11=Test Points
+OutputName11=Test Point Report
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
-PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType12=Test Points
-OutputName12=Test Point Report
+OutputType12=Gerber
+OutputName12=Gerber Files
 OutputDocumentPath12=
-OutputVariantName12=
+OutputVariantName12=[No Variations]
 OutputDefault12=0
+Configuration12_Name1=ForceUpdateSettings
+Configuration12_Item1=False
+Configuration12_Name2=OutputConfigurationParameter1
+Configuration12_Item2=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=5|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16973830~1,16973834~1,16777217~1,16842753~1,16842754~1,16842751~1,16973835~1,16973831~1,16908289~1,16908292~1,16908301~1,16908303~1,16973837~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=True|Sorted=False|Sorted=False|DocumentPath=C:\Users\Sahil\Documents\GitHub\PCBs\CustomAWOS\CustomAWOS\Board.PcbDoc
 
 [OutputGroup6]
 Name=Report Outputs
@@ -495,6 +583,22 @@ OutputDocumentPath1=
 OutputVariantName1=[No Variations]
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+Configuration1_Name1=ColumnNameFormat
+Configuration1_Item1=CaptionAsName
+Configuration1_Name2=ForceUpdateSettings
+Configuration1_Item2=False
+Configuration1_Name3=General
+Configuration1_Item3=OpenExported=True|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=False|IncludeAlternatives=True|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1200|FormHeight=710|SupplierProdQty=1|SupplierAutoQty=True|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=0|UseDirectApi=True|BomSetName=
+Configuration1_Name4=GroupOrder
+Configuration1_Item4=
+Configuration1_Name5=VisibleOrder
+Configuration1_Item5=Line #=52|Comment=149|Description=78|Designator=76|Quantity=64|Manufacturer 1=133|Manufacturer Part Number 1=162|Manufacturer Lifecycle 1=141|Supplier 1=75|Supplier Part Number 1=137|Supplier Unit Price 1=121|Supplier Subtotal 1=115
+Configuration1_Name6=VisibleOrder_Base
+Configuration1_Item6=Line #=52|Comment=149|Description=78|Designator=76|Quantity=64|Manufacturer 1=133|Manufacturer Part Number 1=162|Manufacturer Lifecycle 1=141|Supplier 1=75|Supplier Part Number 1=137|Supplier Unit Price 1=121|Supplier Subtotal 1=115
+Configuration1_Name7=VisibleOrder_Consolidated
+Configuration1_Item7=Line #=100|Comment=100|Description=100|Designator=100|Quantity=100|Manufacturer 1=133|Manufacturer Part Number 1=162|Manufacturer Lifecycle 1=141|Supplier 1=75|Supplier Part Number 1=137|Supplier Unit Price 1=121|Supplier Subtotal 1=115
+Configuration1_Name8=VisibleOrder_Flat
+Configuration1_Item8=Line #=100|Comment=100|Description=100|Designator=100|Manufacturer 1=133|Manufacturer Part Number 1=162|Manufacturer Lifecycle 1=141|Supplier 1=75|Supplier Part Number 1=137|Supplier Unit Price 1=121|Supplier Subtotal 1=115
 OutputType2=ComponentCrossReference
 OutputName2=Component Cross Reference Report
 OutputDocumentPath2=
@@ -1109,17 +1213,11 @@ UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
-ComponentLibraryIdentifier0=HORNET_MOTOR_CONTROLLER.SCHLIB
-ComponentDesignItemID0=FT232RL
-ComponentSymbolReference0=FT232RL
-ComponentUpdate0=0
+ComponentLibraryIdentifier0=SKALE_LIB.SCHLIB
+ComponentDesignItemID0=ATMEGA328PB-AU
+ComponentSymbolReference0=ATMEGA328PB-AU
+ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
-ComponentLibIdentifierKind1=Library Name And Type
-ComponentLibraryIdentifier1=SKALE_LIB.SCHLIB
-ComponentDesignItemID1=ATMEGA328P-MN
-ComponentSymbolReference1=ATMEGA328P-MN
-ComponentUpdate1=1
-ComponentIsDeviceSheet1=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1133,134 +1231,69 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
-ParameterName0=Availability
+ParameterName0=Category
 ParameterUpdate0=1
-ParameterName1=Category
+ParameterName1=Comment
 ParameterUpdate1=1
-ParameterName2=Comment
+ParameterName2=Component Kind
 ParameterUpdate2=1
-ParameterName3=Component Kind
+ParameterName3=ComponentLink1Description
 ParameterUpdate3=1
-ParameterName4=ComponentLink1Description
+ParameterName4=ComponentLink1URL
 ParameterUpdate4=1
-ParameterName5=ComponentLink1URL
+ParameterName5=ComponentLink2Description
 ParameterUpdate5=1
-ParameterName6=ComponentLink2Description
+ParameterName6=ComponentLink2URL
 ParameterUpdate6=1
-ParameterName7=ComponentLink2URL
+ParameterName7=ComponentLink3Description
 ParameterUpdate7=1
-ParameterName8=ComponentLink3Description
+ParameterName8=ComponentLink3URL
 ParameterUpdate8=1
-ParameterName9=ComponentLink3URL
+ParameterName9=ComponentLink4Description
 ParameterUpdate9=1
-ParameterName10=ComponentLink4Description
+ParameterName10=ComponentLink4URL
 ParameterUpdate10=1
-ParameterName11=ComponentLink4URL
+ParameterName11=Description
 ParameterUpdate11=1
-ParameterName12=ComponentLink5Description
+ParameterName12=Digi-Key_Part_Number
 ParameterUpdate12=1
-ParameterName13=ComponentLink5URL
+ParameterName13=Digi-Key_Purchase_URL
 ParameterUpdate13=1
-ParameterName14=ComponentLink6Description
+ParameterName14=Library Reference
 ParameterUpdate14=1
-ParameterName15=ComponentLink6URL
+ParameterName15=Manufacturer
 ParameterUpdate15=1
-ParameterName16=ComponentLink7Description
+ParameterName16=Manufacturer Part Number
 ParameterUpdate16=1
-ParameterName17=ComponentLink7URL
+ParameterName17=MF
 ParameterUpdate17=1
-ParameterName18=ComponentLink8Description
+ParameterName18=MP
 ParameterUpdate18=1
-ParameterName19=ComponentLink8URL
+ParameterName19=Package
 ParameterUpdate19=1
-ParameterName20=ComponentLink9Description
+ParameterName20=Pricing 1
 ParameterUpdate20=1
-ParameterName21=ComponentLink9URL
+ParameterName21=REACH SVHC
 ParameterUpdate21=1
-ParameterName22=Description
+ParameterName22=RoHS
 ParameterUpdate22=1
-ParameterName23=Height - Seated (Max)
+ParameterName23=RoHS Compliant
 ParameterUpdate23=1
-ParameterName24=JESD-30 Code
+ParameterName24=SnapEDA_Link
 ParameterUpdate24=1
-ParameterName25=Length
+ParameterName25=Supplier 1
 ParameterUpdate25=1
-ParameterName26=Library Reference
+ParameterName26=Supplier Part Number 1
 ParameterUpdate26=1
-ParameterName27=Manufacturer
+ParameterName27=Technology
 ParameterUpdate27=1
-ParameterName28=Manufacturer Part Number
+ParameterName28=Value
 ParameterUpdate28=1
-ParameterName29=Max Frequency
-ParameterUpdate29=1
-ParameterName30=Max Operating Temperature
-ParameterUpdate30=1
-ParameterName31=Max Supply Current
-ParameterUpdate31=1
-ParameterName32=Max Supply Voltage
-ParameterUpdate32=1
-ParameterName33=MF
-ParameterUpdate33=1
-ParameterName34=Min Operating Temperature
-ParameterUpdate34=1
-ParameterName35=Min Supply Voltage
-ParameterUpdate35=1
-ParameterName36=Moisture Sensitivity Level
-ParameterUpdate36=1
-ParameterName37=MP
-ParameterUpdate37=1
-ParameterName38=Number of Pins
-ParameterUpdate38=1
-ParameterName39=Package
-ParameterUpdate39=1
-ParameterName40=Package Body Material
-ParameterUpdate40=1
-ParameterName41=Package Code
-ParameterUpdate41=1
-ParameterName42=Package Shape
-ParameterUpdate42=1
-ParameterName43=Package Style
-ParameterUpdate43=1
-ParameterName44=Price
-ParameterUpdate44=1
-ParameterName45=Pricing 1
-ParameterUpdate45=1
-ParameterName46=Qualification Status
-ParameterUpdate46=1
-ParameterName47=RoHS
-ParameterUpdate47=1
-ParameterName48=SnapEDA_Link
-ParameterUpdate48=1
-ParameterName49=Stock 1
-ParameterUpdate49=1
-ParameterName50=Supplier 1
-ParameterUpdate50=1
-ParameterName51=Supplier Part Number 1
-ParameterUpdate51=1
-ParameterName52=Surface Mount
-ParameterUpdate52=1
-ParameterName53=Technology
-ParameterUpdate53=1
-ParameterName54=Temperature Grade
-ParameterUpdate54=1
-ParameterName55=Terminal Form
-ParameterUpdate55=1
-ParameterName56=Terminal Pitch
-ParameterUpdate56=1
-ParameterName57=Terminal Position
-ParameterUpdate57=1
-ParameterName58=Value
-ParameterUpdate58=1
-ParameterName59=Width
-ParameterUpdate59=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=FT232RL
+ModelName0=QFP80P900X900X120-32N
 ModelUpdate0=1
-ModelType1=PCBLIB
-ModelName1=QFN50P500X500X100-33N
-ModelUpdate1=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
