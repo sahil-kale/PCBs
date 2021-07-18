@@ -18,7 +18,7 @@
 ## Errata:
 - R2 and R4 values are too high. The value of both of these should instead be 200 ohms (currently made possible by stacking 5 1k ohm resistors)
 - Footprint for J5 is too small for standard pin headers
-- C3-C4 combined capicatance is 1.833uF. This should be 2.166uF
+- C3-C4 combined capicatance is 1.833uF. This should be ~2uF after further experimentation due to the actual resistance of various board components differing from ideal
 
 
 ## Photos:
