@@ -22,7 +22,8 @@
 
 
 ## Photos:
-Board Picture
+Board Pictures
+![image](https://user-images.githubusercontent.com/32375512/126053868-210c035b-0b66-40e4-bdbe-828d0a1a9829.png)
 ![image](https://user-images.githubusercontent.com/32375512/126052807-8699cc56-2598-42b4-b0a8-75e5a4899176.png)
 OScope Output
 ![image](https://user-images.githubusercontent.com/32375512/126052810-21ca0564-5ff3-40a3-8866-c7faa6f7c2f6.png)
