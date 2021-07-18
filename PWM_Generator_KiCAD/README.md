@@ -22,4 +22,10 @@
 
 
 ## Photos:
-?Add some here
+Board Picture
+![image](https://user-images.githubusercontent.com/32375512/126052807-8699cc56-2598-42b4-b0a8-75e5a4899176.png)
+OScope Output
+![image](https://user-images.githubusercontent.com/32375512/126052810-21ca0564-5ff3-40a3-8866-c7faa6f7c2f6.png)
+LTSpice Simulation Model:
+![image](https://user-images.githubusercontent.com/32375512/126052799-11ae228a-5fee-4af8-91b4-d4eb32be1b2d.png)
+
