@@ -8,7 +8,7 @@
 - This schematic is originally based upon https://www.multisim.com/content/tf7Mwpy2CctfFaaVEr4SeN/555-variable-duty-cycle-constant-frequency-astable-multivibrator/. While modified, it uses much of the same principles.
 
 ## Goal:
-- The goal of this board was to be able to plug in a DC power source (capped to 16v) and be able to send PWM outputs to a motor controller/servo. Additionally, a low-side switch was also added to enable DC motor control if desired.
+- The goal of this board was to be able to plug in a DC power source (capped to 16v) and be able to send PWM outputs to a motor controller/servo. Additionally, a low-side switch tied to the output of the 555 timer was also added to enable DC motor control if desired, as well as a few LED's.
 
 ## Calculations:
 - Ton = 0.7*(R2 + Ra) * (C3+C4) where Ra is the resistance between terminals 3 and 2
