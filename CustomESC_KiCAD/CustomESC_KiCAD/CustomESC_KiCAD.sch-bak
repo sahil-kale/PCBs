@@ -1,0 +1,38 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:Q_NMOS_DGS Q?
+U 1 1 613ECF4E
+P 5700 1650
+F 0 "Q?" H 5904 1696 50  0000 L CNN
+F 1 "Q_NMOS_DGS" H 5904 1605 50  0000 L CNN
+F 2 "" H 5900 1750 50  0001 C CNN
+F 3 "~" H 5700 1650 50  0001 C CNN
+	1    5700 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_DGS Q?
+U 1 1 613EECC8
+P 5700 2300
+F 0 "Q?" H 5904 2346 50  0000 L CNN
+F 1 "Q_NMOS_DGS" H 5904 2255 50  0000 L CNN
+F 2 "" H 5900 2400 50  0001 C CNN
+F 3 "~" H 5700 2300 50  0001 C CNN
+	1    5700 2300
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

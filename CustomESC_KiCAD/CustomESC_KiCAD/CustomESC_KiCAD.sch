@@ -1,0 +1,64 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:Q_NMOS_DGS Q?
+U 1 1 613ECF4E
+P 5700 1650
+F 0 "Q?" H 5904 1696 50  0000 L CNN
+F 1 "Q_NMOS_DGS" H 5904 1605 50  0000 L CNN
+F 2 "" H 5900 1750 50  0001 C CNN
+F 3 "~" H 5700 1650 50  0001 C CNN
+	1    5700 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_DGS Q?
+U 1 1 613EECC8
+P 5700 2150
+F 0 "Q?" H 5904 2196 50  0000 L CNN
+F 1 "Q_NMOS_DGS" H 5904 2105 50  0000 L CNN
+F 2 "" H 5900 2250 50  0001 C CNN
+F 3 "~" H 5700 2150 50  0001 C CNN
+	1    5700 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 1800 5500 1650
+Wire Wire Line
+	5500 2000 5500 2150
+Wire Wire Line
+	5800 1850 5800 1900
+$Comp
+L Kale_Custom:ADP3110AKRZ-RL U?
+U 1 1 614003C7
+P 4800 1850
+F 0 "U?" H 4800 2167 50  0000 C CNN
+F 1 "ADP3110AKRZ-RL" H 4800 2076 50  0000 C CNN
+F 2 "" H 4550 2050 50  0001 C CNN
+F 3 "" H 4550 2050 50  0001 C CNN
+	1    4800 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 1800 5500 1800
+Wire Wire Line
+	5200 2000 5500 2000
+Wire Wire Line
+	5200 1900 5800 1900
+Connection ~ 5800 1900
+Wire Wire Line
+	5800 1900 5800 1950
+$EndSCHEMATC
