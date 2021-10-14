@@ -29,8 +29,8 @@ $Comp
 L Connector:Screw_Terminal_01x02 J2
 U 1 1 6162790B
 P 7550 3500
-F 0 "J2" H 7550 3250 50  0000 C CNN
-F 1 "Screw_Terminal_01x02" H 7800 3650 50  0000 C CNN
+F 0 "J2" H 7550 3600 50  0000 C CNN
+F 1 "Screw_Terminal_01x02" H 7750 3300 50  0000 C CNN
 F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal" H 7550 3500 50  0001 C CNN
 F 3 "~" H 7550 3500 50  0001 C CNN
 F 4 "277-1667-ND" H 7550 3500 50  0001 C CNN "Digikey Part Number"
