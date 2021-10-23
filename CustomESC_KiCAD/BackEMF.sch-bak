@@ -1,0 +1,526 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	5100 3450 5350 3450
+Wire Wire Line
+	5100 3100 5350 3100
+Wire Wire Line
+	5100 2750 5350 2750
+$Comp
+L power:GND #PWR?
+U 1 1 618F4ABF
+P 4700 4150
+AR Path="/618F4ABF" Ref="#PWR?"  Part="1" 
+AR Path="/618D5FF2/618F4ABF" Ref="#PWR029"  Part="1" 
+F 0 "#PWR029" H 4700 3900 50  0001 C CNN
+F 1 "GND" H 4705 3977 50  0000 C CNN
+F 2 "" H 4700 4150 50  0001 C CNN
+F 3 "" H 4700 4150 50  0001 C CNN
+	1    4700 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 3850 4000 4150
+$Comp
+L power:GND #PWR?
+U 1 1 618F4AC6
+P 4000 4150
+AR Path="/618F4AC6" Ref="#PWR?"  Part="1" 
+AR Path="/618D5FF2/618F4AC6" Ref="#PWR027"  Part="1" 
+F 0 "#PWR027" H 4000 3900 50  0001 C CNN
+F 1 "GND" H 4005 3977 50  0000 C CNN
+F 2 "" H 4000 4150 50  0001 C CNN
+F 3 "" H 4000 4150 50  0001 C CNN
+	1    4000 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 3850 4300 4150
+$Comp
+L power:GND #PWR?
+U 1 1 618F4ACD
+P 4300 4150
+AR Path="/618F4ACD" Ref="#PWR?"  Part="1" 
+AR Path="/618D5FF2/618F4ACD" Ref="#PWR028"  Part="1" 
+F 0 "#PWR028" H 4300 3900 50  0001 C CNN
+F 1 "GND" H 4305 3977 50  0000 C CNN
+F 2 "" H 4300 4150 50  0001 C CNN
+F 3 "" H 4300 4150 50  0001 C CNN
+	1    4300 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 3100 4300 3550
+Connection ~ 4300 3100
+Wire Wire Line
+	3850 3100 4300 3100
+Wire Wire Line
+	4000 2750 4000 3550
+Connection ~ 4000 2750
+Wire Wire Line
+	3850 2750 4000 2750
+$Comp
+L Device:R_US R?
+U 1 1 618F4AE5
+P 4300 3700
+AR Path="/618F4AE5" Ref="R?"  Part="1" 
+AR Path="/618D5FF2/618F4AE5" Ref="R21"  Part="1" 
+F 0 "R21" H 4368 3746 50  0000 L CNN
+F 1 "10k" H 4368 3655 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 4340 3690 50  0001 C CNN
+F 3 "~" H 4300 3700 50  0001 C CNN
+F 4 "RMCF0603FT10K0CT-ND" H 4300 3700 50  0001 C CNN "Digikey Number"
+	1    4300 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 3100 5350 2750
+Connection ~ 5350 3100
+Wire Wire Line
+	5350 3100 5350 3450
+Connection ~ 5350 3450
+Wire Wire Line
+	5350 3450 5350 3550
+$Comp
+L Device:R_US R?
+U 1 1 618F4AF0
+P 4950 3450
+AR Path="/618F4AF0" Ref="R?"  Part="1" 
+AR Path="/618D5FF2/618F4AF0" Ref="R25"  Part="1" 
+F 0 "R25" V 4745 3450 50  0000 C CNN
+F 1 "33k" V 4836 3450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 4990 3440 50  0001 C CNN
+F 3 "~" H 4950 3450 50  0001 C CNN
+F 4 "RMCF0603FT33K0CT-ND" H 4950 3450 50  0001 C CNN "Digikey Number"
+	1    4950 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 618F4AFE
+P 4950 3100
+AR Path="/618F4AFE" Ref="R?"  Part="1" 
+AR Path="/618D5FF2/618F4AFE" Ref="R24"  Part="1" 
+F 0 "R24" V 4745 3100 50  0000 C CNN
+F 1 "33k" V 4836 3100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 4990 3090 50  0001 C CNN
+F 3 "~" H 4950 3100 50  0001 C CNN
+F 4 "RMCF0603FT33K0CT-ND" H 4950 3100 50  0001 C CNN "Digikey Number"
+	1    4950 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:NEUT #PWR?
+U 1 1 618F4B0C
+P 5350 3550
+AR Path="/618F4B0C" Ref="#PWR?"  Part="1" 
+AR Path="/618D5FF2/618F4B0C" Ref="#PWR030"  Part="1" 
+F 0 "#PWR030" H 5350 3400 50  0001 C CNN
+F 1 "NEUT" H 5365 3723 50  0000 C CNN
+F 2 "" H 5350 3550 50  0001 C CNN
+F 3 "" H 5350 3550 50  0001 C CNN
+	1    5350 3550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 618F4B12
+P 4950 2750
+AR Path="/618F4B12" Ref="R?"  Part="1" 
+AR Path="/618D5FF2/618F4B12" Ref="R23"  Part="1" 
+F 0 "R23" V 4745 2750 50  0000 C CNN
+F 1 "33k" V 4836 2750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 4990 2740 50  0001 C CNN
+F 3 "~" H 4950 2750 50  0001 C CNN
+F 4 "RMCF0603FT33K0CT-ND" H 4950 2750 50  0001 C CNN "Digikey Number"
+	1    4950 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 618F4B18
+P 3700 2750
+AR Path="/618F4B18" Ref="R?"  Part="1" 
+AR Path="/618D5FF2/618F4B18" Ref="R17"  Part="1" 
+F 0 "R17" V 3495 2750 50  0000 C CNN
+F 1 "33k" V 3586 2750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3740 2740 50  0001 C CNN
+F 3 "~" H 3700 2750 50  0001 C CNN
+F 4 "RMCF0603FT33K0CT-ND" H 3700 2750 50  0001 C CNN "Digikey Number"
+	1    3700 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 618F4B1F
+P 4000 3700
+AR Path="/618F4B1F" Ref="R?"  Part="1" 
+AR Path="/618D5FF2/618F4B1F" Ref="R20"  Part="1" 
+F 0 "R20" H 4068 3746 50  0000 L CNN
+F 1 "10k" H 4068 3655 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 4040 3690 50  0001 C CNN
+F 3 "~" H 4000 3700 50  0001 C CNN
+F 4 "RMCF0603FT10K0CT-ND" H 4000 3700 50  0001 C CNN "Digikey Number"
+	1    4000 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Comparator:LM339 U?
+U 5 1 618F4B27
+P 6350 2100
+AR Path="/618F4B27" Ref="U?"  Part="5" 
+AR Path="/618D5FF2/618F4B27" Ref="U4"  Part="5" 
+F 0 "U4" H 6308 2146 50  0000 L CNN
+F 1 "LM339" H 6308 2055 50  0000 L CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 6300 2200 50  0001 C CNN
+F 3 "https://www.st.com/resource/en/datasheet/lm139.pdf" H 6400 2300 50  0001 C CNN
+F 4 "497-1586-1-ND" H 6350 2100 50  0001 C CNN "Digikey Number"
+	5    6350 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Comparator:LM339 U?
+U 4 1 618F4B2E
+P 7050 4650
+AR Path="/618F4B2E" Ref="U?"  Part="4" 
+AR Path="/618D5FF2/618F4B2E" Ref="U4"  Part="4" 
+F 0 "U4" H 7050 5017 50  0000 C CNN
+F 1 "LM339" H 7050 4926 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 7000 4750 50  0001 C CNN
+F 3 "https://www.st.com/resource/en/datasheet/lm139.pdf" H 7100 4850 50  0001 C CNN
+F 4 "497-1586-1-ND" H 7050 4650 50  0001 C CNN "Digikey Number"
+	4    7050 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Comparator:LM339 U?
+U 3 1 618F4B35
+P 7050 4050
+AR Path="/618F4B35" Ref="U?"  Part="3" 
+AR Path="/618D5FF2/618F4B35" Ref="U4"  Part="3" 
+F 0 "U4" H 7050 4417 50  0000 C CNN
+F 1 "LM339" H 7050 4326 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 7000 4150 50  0001 C CNN
+F 3 "https://www.st.com/resource/en/datasheet/lm139.pdf" H 7100 4250 50  0001 C CNN
+F 4 "497-1586-1-ND" H 7050 4050 50  0001 C CNN "Digikey Number"
+	3    7050 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Comparator:LM339 U?
+U 2 1 618F4B3C
+P 7050 3450
+AR Path="/618F4B3C" Ref="U?"  Part="2" 
+AR Path="/618D5FF2/618F4B3C" Ref="U4"  Part="2" 
+F 0 "U4" H 7050 3817 50  0000 C CNN
+F 1 "LM339" H 7050 3726 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 7000 3550 50  0001 C CNN
+F 3 "https://www.st.com/resource/en/datasheet/lm139.pdf" H 7100 3650 50  0001 C CNN
+F 4 "497-1586-1-ND" H 7050 3450 50  0001 C CNN "Digikey Number"
+	2    7050 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Comparator:LM339 U?
+U 1 1 618F4B43
+P 7050 2850
+AR Path="/618F4B43" Ref="U?"  Part="1" 
+AR Path="/618D5FF2/618F4B43" Ref="U4"  Part="1" 
+F 0 "U4" H 7050 3217 50  0000 C CNN
+F 1 "LM339" H 7050 3126 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 7000 2950 50  0001 C CNN
+F 3 "https://www.st.com/resource/en/datasheet/lm139.pdf" H 7100 3050 50  0001 C CNN
+F 4 "497-1586-1-ND" H 7050 2850 50  0001 C CNN "Digikey Number"
+	1    7050 2850
+	1    0    0    -1  
+$EndComp
+Text GLabel 3150 2750 0    50   Input ~ 0
+PHASEA
+Text GLabel 3150 3100 0    50   Input ~ 0
+PHASEB
+Text GLabel 3150 3450 0    50   Input ~ 0
+PHASEC
+$Comp
+L Device:R_US R?
+U 1 1 618F4B04
+P 3700 3100
+AR Path="/618F4B04" Ref="R?"  Part="1" 
+AR Path="/618D5FF2/618F4B04" Ref="R18"  Part="1" 
+F 0 "R18" V 3495 3100 50  0000 C CNN
+F 1 "33k" V 3586 3100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3740 3090 50  0001 C CNN
+F 3 "~" H 3700 3100 50  0001 C CNN
+F 4 "RMCF0603FT33K0CT-ND" H 3700 3100 50  0001 C CNN "Digikey Number"
+	1    3700 3100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3550 3100 3150 3100
+Wire Wire Line
+	3150 2750 3550 2750
+$Comp
+L power:NEUT #PWR?
+U 1 1 6192D90F
+P 6500 4850
+AR Path="/6192D90F" Ref="#PWR?"  Part="1" 
+AR Path="/618D5FF2/6192D90F" Ref="#PWR032"  Part="1" 
+F 0 "#PWR032" H 6500 4700 50  0001 C CNN
+F 1 "NEUT" H 6515 5023 50  0000 C CNN
+F 2 "" H 6500 4850 50  0001 C CNN
+F 3 "" H 6500 4850 50  0001 C CNN
+	1    6500 4850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6500 3550 6500 4150
+Connection ~ 6500 4150
+Wire Wire Line
+	4000 2750 4800 2750
+Wire Wire Line
+	4300 3100 4800 3100
+Text Label 4400 2750 0    50   ~ 0
+BEMFA
+Text Label 4400 3100 0    50   ~ 0
+BEMFB
+Wire Wire Line
+	4700 3850 4700 4150
+$Comp
+L Device:R_US R?
+U 1 1 618F4ADF
+P 4700 3700
+AR Path="/618F4ADF" Ref="R?"  Part="1" 
+AR Path="/618D5FF2/618F4ADF" Ref="R22"  Part="1" 
+F 0 "R22" H 4768 3746 50  0000 L CNN
+F 1 "10k" H 4768 3655 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 4740 3690 50  0001 C CNN
+F 3 "~" H 4700 3700 50  0001 C CNN
+F 4 "RMCF0603FT10K0CT-ND" H 4700 3700 50  0001 C CNN "Digikey Number"
+	1    4700 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 3450 3550 3450
+Wire Wire Line
+	4700 3450 4800 3450
+Wire Wire Line
+	4700 3550 4700 3450
+Connection ~ 4700 3450
+$Comp
+L Device:R_US R?
+U 1 1 618F4AF6
+P 3700 3450
+AR Path="/618F4AF6" Ref="R?"  Part="1" 
+AR Path="/618D5FF2/618F4AF6" Ref="R19"  Part="1" 
+F 0 "R19" V 3495 3450 50  0000 C CNN
+F 1 "33k" V 3586 3450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3740 3440 50  0001 C CNN
+F 3 "~" H 3700 3450 50  0001 C CNN
+F 4 "RMCF0603FT33K0CT-ND" H 3700 3450 50  0001 C CNN "Digikey Number"
+	1    3700 3450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3850 3450 4700 3450
+Text Label 4400 3450 0    50   ~ 0
+BEMFC
+Wire Wire Line
+	6500 4150 6500 4850
+Wire Wire Line
+	6700 4850 6700 4750
+Wire Wire Line
+	6700 4750 6750 4750
+Wire Wire Line
+	6750 4550 6700 4550
+Wire Wire Line
+	6700 4550 6700 4750
+Connection ~ 6700 4750
+Wire Wire Line
+	6500 4150 6750 4150
+Wire Wire Line
+	6500 3550 6750 3550
+Wire Wire Line
+	6750 2950 6500 2950
+Wire Wire Line
+	6500 2950 6500 3550
+Connection ~ 6500 3550
+Text Label 6100 2750 0    50   ~ 0
+BEMFA
+Wire Wire Line
+	6100 2750 6750 2750
+Text Label 6100 3350 0    50   ~ 0
+BEMFB
+Wire Wire Line
+	6100 3350 6750 3350
+Text Label 6100 3950 0    50   ~ 0
+BEMFC
+Wire Wire Line
+	6100 3950 6750 3950
+$Comp
+L power:VCC #PWR031
+U 1 1 6194ACBC
+P 6000 2100
+F 0 "#PWR031" H 6000 1950 50  0001 C CNN
+F 1 "VCC" H 6015 2273 50  0000 C CNN
+F 2 "" H 6000 2100 50  0001 C CNN
+F 3 "" H 6000 2100 50  0001 C CNN
+	1    6000 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 2100 6000 2200
+Wire Wire Line
+	6000 2200 6050 2200
+$Comp
+L power:GND #PWR033
+U 1 1 61937137
+P 6700 4850
+F 0 "#PWR033" H 6700 4600 50  0001 C CNN
+F 1 "GND" H 6705 4677 50  0000 C CNN
+F 2 "" H 6700 4850 50  0001 C CNN
+F 3 "" H 6700 4850 50  0001 C CNN
+	1    6700 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR034
+U 1 1 6194C75A
+P 6750 2300
+F 0 "#PWR034" H 6750 2050 50  0001 C CNN
+F 1 "GND" H 6755 2127 50  0000 C CNN
+F 2 "" H 6750 2300 50  0001 C CNN
+F 3 "" H 6750 2300 50  0001 C CNN
+	1    6750 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 2300 6750 2200
+Wire Wire Line
+	6750 2200 6650 2200
+NoConn ~ 7350 4650
+Wire Notes Line
+	5800 1750 5800 5250
+Text GLabel 8550 4050 2    50   Input ~ 0
+ZCROSS_C
+Text GLabel 8550 3450 2    50   Input ~ 0
+ZCROSS_B
+$Comp
+L Device:R_US R26
+U 1 1 61968C49
+P 7450 2500
+F 0 "R26" H 7518 2546 50  0000 L CNN
+F 1 "10k" H 7518 2455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 7490 2490 50  0001 C CNN
+F 3 "~" H 7450 2500 50  0001 C CNN
+F 4 "RMCF0603FT10K0CT-ND" H 7450 2500 50  0001 C CNN "Digikey Number"
+	1    7450 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7350 2850 7450 2850
+Wire Wire Line
+	7350 3450 7850 3450
+Wire Wire Line
+	7350 4050 8250 4050
+$Comp
+L power:VCC #PWR035
+U 1 1 6196CE91
+P 7450 2250
+F 0 "#PWR035" H 7450 2100 50  0001 C CNN
+F 1 "VCC" H 7465 2423 50  0000 C CNN
+F 2 "" H 7450 2250 50  0001 C CNN
+F 3 "" H 7450 2250 50  0001 C CNN
+	1    7450 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 2250 7450 2350
+Wire Wire Line
+	7450 2650 7450 2850
+Connection ~ 7450 2850
+Wire Wire Line
+	7450 2850 8550 2850
+$Comp
+L Device:R_US R27
+U 1 1 6196F2C2
+P 7850 3200
+F 0 "R27" H 7918 3246 50  0000 L CNN
+F 1 "10k" H 7918 3155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 7890 3190 50  0001 C CNN
+F 3 "~" H 7850 3200 50  0001 C CNN
+F 4 "RMCF0603FT10K0CT-ND" H 7850 3200 50  0001 C CNN "Digikey Number"
+	1    7850 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7850 3350 7850 3450
+Connection ~ 7850 3450
+Wire Wire Line
+	7850 3450 8550 3450
+$Comp
+L power:VCC #PWR036
+U 1 1 61970B70
+P 7850 2250
+F 0 "#PWR036" H 7850 2100 50  0001 C CNN
+F 1 "VCC" H 7865 2423 50  0000 C CNN
+F 2 "" H 7850 2250 50  0001 C CNN
+F 3 "" H 7850 2250 50  0001 C CNN
+	1    7850 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7850 2250 7850 3050
+$Comp
+L Device:R_US R28
+U 1 1 61971C74
+P 8250 3800
+F 0 "R28" H 8318 3846 50  0000 L CNN
+F 1 "10k" H 8318 3755 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 8290 3790 50  0001 C CNN
+F 3 "~" H 8250 3800 50  0001 C CNN
+F 4 "RMCF0603FT10K0CT-ND" H 8250 3800 50  0001 C CNN "Digikey Number"
+	1    8250 3800
+	1    0    0    -1  
+$EndComp
+Connection ~ 8250 4050
+Wire Wire Line
+	8250 4050 8550 4050
+Text GLabel 8550 2850 2    50   Input ~ 0
+ZCROSS_A
+$Comp
+L power:VCC #PWR037
+U 1 1 61976FBD
+P 8250 2250
+F 0 "#PWR037" H 8250 2100 50  0001 C CNN
+F 1 "VCC" H 8265 2423 50  0000 C CNN
+F 2 "" H 8250 2250 50  0001 C CNN
+F 3 "" H 8250 2250 50  0001 C CNN
+	1    8250 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 3750 8250 3650
+Connection ~ 8250 3650
+Wire Wire Line
+	8250 3650 8250 2250
+Wire Wire Line
+	8250 3950 8250 4050
+Wire Notes Line
+	9200 5250 9200 1750
+Wire Notes Line
+	5800 5250 9200 5250
+Wire Notes Line
+	5800 1750 9200 1750
+$EndSCHEMATC
