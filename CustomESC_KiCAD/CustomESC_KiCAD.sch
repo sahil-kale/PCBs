@@ -723,7 +723,7 @@ U 1 1 61991574
 P 1100 2600
 F 0 "J2" H 1018 2817 50  0000 C CNN
 F 1 "Screw_Terminal_01x02" H 1018 2726 50  0000 C CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal" H 1100 2600 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1100 2600 50  0001 C CNN
 F 3 "~" H 1100 2600 50  0001 C CNN
 F 4 "277-1667-ND" H 1100 2600 50  0001 C CNN "Digikey Number"
 	1    1100 2600
@@ -836,29 +836,6 @@ Wire Wire Line
 	1700 4150 1300 4150
 Text Label 1700 4250 0    50   ~ 0
 IN_C
-$Comp
-L Connector:Screw_Terminal_01x03 J5
-U 1 1 61AB1881
-P 10200 3400
-F 0 "J5" H 10118 3717 50  0000 C CNN
-F 1 "Screw_Terminal_01x03" H 10118 3626 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 10200 3400 50  0001 C CNN
-F 3 "~" H 10200 3400 50  0001 C CNN
-	1    10200 3400
-	1    0    0    -1  
-$EndComp
-Text GLabel 9350 3300 0    50   Input ~ 0
-ZCROSS_A
-Wire Wire Line
-	9350 3300 10000 3300
-Text GLabel 9350 3400 0    50   Input ~ 0
-ZCROSS_B
-Wire Wire Line
-	9350 3400 10000 3400
-Text GLabel 9350 3500 0    50   Input ~ 0
-ZCROSS_C
-Wire Wire Line
-	9350 3500 10000 3500
 $Comp
 L Device:R_US R5
 U 1 1 61AF4F82
@@ -1061,17 +1038,6 @@ Wire Wire Line
 Wire Wire Line
 	2350 2450 2350 2400
 $Comp
-L power:VBUS #PWR07
-U 1 1 61B56C1D
-P 2350 2400
-F 0 "#PWR07" H 2350 2250 50  0001 C CNN
-F 1 "VBUS" H 2365 2573 50  0000 C CNN
-F 2 "" H 2350 2400 50  0001 C CNN
-F 3 "" H 2350 2400 50  0001 C CNN
-	1    2350 2400
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:VBUS #PWR05
 U 1 1 61B6A970
 P 2350 1050
@@ -1218,4 +1184,53 @@ Wire Wire Line
 	9250 2400 10000 2400
 Wire Wire Line
 	9250 2300 10000 2300
+$Comp
+L power:VCC #PWR0101
+U 1 1 6175E4C2
+P 2350 2400
+F 0 "#PWR0101" H 2350 2250 50  0001 C CNN
+F 1 "VCC" H 2365 2573 50  0000 C CNN
+F 2 "" H 2350 2400 50  0001 C CNN
+F 3 "" H 2350 2400 50  0001 C CNN
+	1    2350 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x04 J5
+U 1 1 61754B04
+P 10200 3750
+F 0 "J5" H 10280 3742 50  0000 L CNN
+F 1 "Screw_Terminal_01x04" H 10280 3651 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 10200 3750 50  0001 C CNN
+F 3 "~" H 10200 3750 50  0001 C CNN
+	1    10200 3750
+	1    0    0    -1  
+$EndComp
+Text GLabel 9350 3650 0    50   Input ~ 0
+ZCROSS_A
+Wire Wire Line
+	9350 3650 10000 3650
+Text GLabel 9350 3750 0    50   Input ~ 0
+ZCROSS_B
+Wire Wire Line
+	9350 3750 10000 3750
+Text GLabel 9350 3850 0    50   Input ~ 0
+ZCROSS_C
+Wire Wire Line
+	9350 3850 10000 3850
+$Comp
+L power:NEUT #PWR0102
+U 1 1 61762A95
+P 9800 4050
+F 0 "#PWR0102" H 9800 3900 50  0001 C CNN
+F 1 "NEUT" H 9815 4223 50  0000 C CNN
+F 2 "" H 9800 4050 50  0001 C CNN
+F 3 "" H 9800 4050 50  0001 C CNN
+	1    9800 4050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9800 4050 9800 3950
+Wire Wire Line
+	9800 3950 10000 3950
 $EndSCHEMATC

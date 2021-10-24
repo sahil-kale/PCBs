@@ -358,16 +358,10 @@ Wire Wire Line
 Connection ~ 6500 3550
 Text Label 6100 2750 0    50   ~ 0
 BEMFA
-Wire Wire Line
-	6100 2750 6750 2750
 Text Label 6100 3350 0    50   ~ 0
 BEMFB
-Wire Wire Line
-	6100 3350 6750 3350
 Text Label 6100 3950 0    50   ~ 0
 BEMFC
-Wire Wire Line
-	6100 3950 6750 3950
 $Comp
 L power:VCC #PWR031
 U 1 1 6194ACBC
@@ -411,7 +405,7 @@ Wire Wire Line
 	6750 2200 6650 2200
 NoConn ~ 7350 4650
 Wire Notes Line
-	5800 1750 5800 5250
+	5750 1750 5750 5250
 Text GLabel 8550 4050 2    50   Input ~ 0
 ZCROSS_C
 Text GLabel 8550 3450 2    50   Input ~ 0
@@ -518,9 +512,135 @@ Wire Wire Line
 Wire Wire Line
 	8250 3950 8250 4050
 Wire Notes Line
-	9200 5250 9200 1750
+	9150 5250 9150 1750
 Wire Notes Line
-	5800 5250 9200 5250
+	5750 5250 9150 5250
 Wire Notes Line
-	5800 1750 9200 1750
+	5750 1750 9150 1750
+$Comp
+L Connector:TestPoint TP4
+U 1 1 617766C1
+P 6000 2650
+F 0 "TP4" H 6058 2768 50  0000 L CNN
+F 1 "TestPoint" H 6058 2677 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 6200 2650 50  0001 C CNN
+F 3 "~" H 6200 2650 50  0001 C CNN
+	1    6000 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 2650 6000 2750
+Wire Wire Line
+	6000 2750 6750 2750
+$Comp
+L Connector:TestPoint TP5
+U 1 1 61777EA6
+P 6000 3250
+F 0 "TP5" H 6058 3368 50  0000 L CNN
+F 1 "TestPoint" H 6058 3277 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 6200 3250 50  0001 C CNN
+F 3 "~" H 6200 3250 50  0001 C CNN
+	1    6000 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 3250 6000 3350
+Wire Wire Line
+	6000 3350 6750 3350
+$Comp
+L Connector:TestPoint TP6
+U 1 1 6177979B
+P 6000 3850
+F 0 "TP6" H 6058 3968 50  0000 L CNN
+F 1 "TestPoint" H 6058 3877 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 6200 3850 50  0001 C CNN
+F 3 "~" H 6200 3850 50  0001 C CNN
+	1    6000 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 3850 6000 3950
+Wire Wire Line
+	6000 3950 6750 3950
+$Comp
+L Device:C_Small C?
+U 1 1 617F77EE
+P 5850 3500
+F 0 "C?" H 5942 3546 50  0000 L CNN
+F 1 "1nF" H 5942 3455 50  0000 L CNN
+F 2 "" H 5850 3500 50  0001 C CNN
+F 3 "~" H 5850 3500 50  0001 C CNN
+	1    5850 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 617F7DE6
+P 5850 4100
+F 0 "C?" H 5942 4146 50  0000 L CNN
+F 1 "1nF" H 5942 4055 50  0000 L CNN
+F 2 "" H 5850 4100 50  0001 C CNN
+F 3 "~" H 5850 4100 50  0001 C CNN
+	1    5850 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 4000 5850 3950
+Wire Wire Line
+	5850 3950 6000 3950
+Connection ~ 6000 3950
+Wire Wire Line
+	5850 3400 5850 3350
+Wire Wire Line
+	5850 3350 6000 3350
+Connection ~ 6000 3350
+$Comp
+L power:GND #PWR?
+U 1 1 61802A49
+P 5850 4200
+F 0 "#PWR?" H 5850 3950 50  0001 C CNN
+F 1 "GND" H 5855 4027 50  0000 C CNN
+F 2 "" H 5850 4200 50  0001 C CNN
+F 3 "" H 5850 4200 50  0001 C CNN
+	1    5850 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6180313E
+P 5850 3600
+F 0 "#PWR?" H 5850 3350 50  0001 C CNN
+F 1 "GND" H 5855 3427 50  0000 C CNN
+F 2 "" H 5850 3600 50  0001 C CNN
+F 3 "" H 5850 3600 50  0001 C CNN
+	1    5850 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61803753
+P 5850 3000
+F 0 "#PWR?" H 5850 2750 50  0001 C CNN
+F 1 "GND" H 5855 2827 50  0000 C CNN
+F 2 "" H 5850 3000 50  0001 C CNN
+F 3 "" H 5850 3000 50  0001 C CNN
+	1    5850 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 618072A2
+P 5850 2900
+F 0 "C?" H 5942 2946 50  0000 L CNN
+F 1 "1nF" H 5942 2855 50  0000 L CNN
+F 2 "" H 5850 2900 50  0001 C CNN
+F 3 "~" H 5850 2900 50  0001 C CNN
+	1    5850 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 2750 5850 2750
+Wire Wire Line
+	5850 2750 5850 2800
+Connection ~ 6000 2750
 $EndSCHEMATC
