@@ -1,8 +1,15 @@
 (kicad_sch (version 20211123) (generator eeschema)
 
-  (uuid 2cddef0d-90d0-4d5a-bfc3-4aaba1b66387)
+  (uuid c6e56d6d-327d-43e7-85c5-4b6c82d1472d)
 
   (paper "A4")
+
+  (title_block
+    (title "Button Interfaces")
+    (date "2022-08-27")
+    (rev "1.0")
+    (company "AUTHOR: Sahil Kale")
+  )
 
   (lib_symbols
     (symbol "Device:C_Small" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
@@ -875,7 +882,7 @@
   (symbol (lib_id "Device:R_US") (at 180.34 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 48564f32-a035-4a2d-89c4-fc34bdc917b4)
-    (property "Reference" "R?" (id 0) (at 181.991 122.2815 0)
+    (property "Reference" "R14" (id 0) (at 181.991 122.2815 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "5.1k" (id 1) (at 181.991 125.0566 0)
@@ -913,7 +920,7 @@
   (symbol (lib_id "Device:C_Small") (at 176.53 134.62 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 5c46a1ac-36de-44bd-8e8a-68e67a671e02)
-    (property "Reference" "C?" (id 0) (at 171.45 133.35 0))
+    (property "Reference" "C4" (id 0) (at 171.45 133.35 0))
     (property "Value" "10nF" (id 1) (at 171.45 135.89 0))
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (id 2) (at 176.53 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1065,7 +1072,7 @@
   (symbol (lib_id "power:+3V3") (at 180.34 118.11 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 94401579-4614-46ca-ada3-c304c27c7860)
-    (property "Reference" "#PWR?" (id 0) (at 180.34 121.92 0)
+    (property "Reference" "#PWR0123" (id 0) (at 180.34 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (id 1) (at 180.34 114.5055 0))
@@ -1207,7 +1214,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 180.34 134.62 270) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid de7c6634-7b3b-41a2-a77f-fe977cb0568e)
-    (property "Reference" "SW?" (id 0) (at 184.023 133.7115 90)
+    (property "Reference" "SW7" (id 0) (at 184.023 133.7115 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SW_Push" (id 1) (at 184.023 136.4866 90)
@@ -1307,7 +1314,7 @@
   (symbol (lib_id "power:GND") (at 180.34 142.24 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid ff519258-1b23-4762-98ff-0492c38e2796)
-    (property "Reference" "#PWR?" (id 0) (at 180.34 148.59 0)
+    (property "Reference" "#PWR0124" (id 0) (at 180.34 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 180.34 146.8025 0))

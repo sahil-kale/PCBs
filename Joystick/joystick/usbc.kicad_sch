@@ -1,8 +1,15 @@
 (kicad_sch (version 20211123) (generator eeschema)
 
-  (uuid 16cff25a-2154-4ad3-babf-c606b4a3e712)
+  (uuid 87002f01-ecf8-48c6-aa3f-0040f39281fe)
 
   (paper "A4")
+
+  (title_block
+    (title "USB Interface")
+    (date "2022-08-27")
+    (rev "1.0")
+    (company "AUTHOR: Sahil Kale")
+  )
 
   (lib_symbols
     (symbol "Connector:TestPoint" (pin_numbers hide) (pin_names (offset 0.762) hide) (in_bom yes) (on_board yes)
@@ -554,6 +561,15 @@
   (wire (pts (xy 151.13 95.25) (xy 163.83 95.25))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid ece0ec7f-ffc6-4583-b5d4-54d1ebc3c71b)
+  )
+
+  (label "D-" (at 156.21 90.17 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 31ac6e8a-83c1-462c-91c3-365444bdda4f)
+  )
+  (label "D+" (at 156.21 95.25 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 71e08c4a-87e8-4eab-bf7a-07576b516f43)
   )
 
   (hierarchical_label "D+" (shape bidirectional) (at 163.83 95.25 0)

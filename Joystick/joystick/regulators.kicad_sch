@@ -1,8 +1,15 @@
 (kicad_sch (version 20211123) (generator eeschema)
 
-  (uuid 3902e1c6-87ee-4f7e-b33e-06c4c47cd2d8)
+  (uuid 0f992833-3f75-41e9-b82c-9d6e6241b56f)
 
   (paper "A4")
+
+  (title_block
+    (title "Regulators")
+    (date "2022-08-27")
+    (rev "1.0")
+    (company "AUTHOR: Sahil Kale")
+  )
 
   (lib_symbols
     (symbol "Device:C_Small" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)

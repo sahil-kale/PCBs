@@ -1,8 +1,14 @@
 (kicad_sch (version 20211123) (generator eeschema)
 
-  (uuid c93765ad-7ebf-409b-814e-b2fba92f306e)
+  (uuid 75934072-c6b5-4c2c-ad2f-dc3d1ca51861)
 
   (paper "A4")
+
+  (title_block
+    (date "2022-08-27")
+    (rev "1.0")
+    (company "AUTHOR: Sahil Kale")
+  )
 
   (lib_symbols
     (symbol "Connector:Conn_01x03_Male" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)

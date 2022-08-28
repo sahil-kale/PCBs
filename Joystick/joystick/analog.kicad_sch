@@ -1,8 +1,15 @@
 (kicad_sch (version 20211123) (generator eeschema)
 
-  (uuid b3992873-661e-416f-9750-073fffdeb5d1)
+  (uuid fb634ff4-52c4-454a-847a-91a6b11dee10)
 
   (paper "A4")
+
+  (title_block
+    (title "Analog to Digital Converter")
+    (date "2022-08-27")
+    (rev "1.0")
+    (company "AUTHOR: Sahil Kale")
+  )
 
   (lib_symbols
     (symbol "Device:C_Small" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)

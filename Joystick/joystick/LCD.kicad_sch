@@ -1,8 +1,15 @@
 (kicad_sch (version 20211123) (generator eeschema)
 
-  (uuid 3b7294b2-0b38-4230-953e-28496de18182)
+  (uuid 06a970a2-ff90-4628-a8c1-328b00cd0825)
 
   (paper "A4")
+
+  (title_block
+    (title "Liquid Crystal Display")
+    (date "2022-08-27")
+    (rev "1.0")
+    (company "AUTHOR: Sahil Kale")
+  )
 
   (lib_symbols
     (symbol "Device:C_Small" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
